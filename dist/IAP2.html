@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body class="bg-black bg-opacity-10">
+    <section class=" ml-9 mt-96 mr-9 "> 
+        <div class="flex">
+            <div style="background-color:#66BB6A;" class="p-12 rounded-l-xl"> <!--STATUS INFO-->
+                <p class="text-4xl font-bold w-64 pb-6">Cashew Value Chain Project</p>
+                <p class="font-chivo pb-6">&#8358 300,000/unit</p>
+                <p class="font-chivo text-white">START DATE</p>
+                <p class="font-chivo pb-6">Jan 17, 2022</p>
+                <p class="font-chivo text-white">TYPE</p>
+                <p class="font-chivo pb-6">Project-finance</p>
+                <p class="font-chivo text-white">RETURN</p>
+                <p class="font-chivo pb-6">40%</p>
+                <p class="font-chivo text-white">INVESTMENT CODE</p>
+                <p class="font-chivo pb-6">AS076R5123</p>
+                <p class="font-chivo text-white">INVESTMENT PAYOUT MODE</p>
+                <p class="font-chivo">AS076R5123</p>
+            </div>
+
+            <div class="bg-white p-12 w-full rounded-r-xl"> <!--COST INFO-->
+                <div style="background-color: #66BB6A; " class="rounded-md p-4">
+                    <p class="font-chivo text-white text-xl mb-3">UNIT COST</p>
+                    <p class="font-chivo text-3xl">&#8358 300,000/unit</p>
+                </div>
+
+                <div class="mt-6 mb-10">
+                    <p class="font-chivo">Number of units to purchase</p>
+                </div>
+              
+                <div class="flex">
+                    <div class="flex flex-row justify-between border-2 border-black rounded-xl w-64 items-center">
+                        <button class="bg-gray-300 p-8 rounded-l-xl" onclick="decrease()">
+                            &minus;
+                        </button>
+
+                        <div class="" id="quantity">
+                            1
+                        </div>
+
+                        <button  class="bg-gray-300 p-8 rounded-r-xl" onclick="increase()">
+                            &plus;
+                        </button>
+                    </div>
+                   
+                    <div class="ml-8"> 
+                        <p style="color: #66BB6A;" class="font-chivo text-xl">UNIT COST</p>
+                        <p class="font-chivo text-3xl" id="amount">#300,000 </p><span>/unit</span>
+                    </div>
+
+                </div>
+
+              <div class=" p-6  rounded-xl mt-9" style="background-color: #43A047; width: 20%;">  <!--MAKE PAYMENT-->
+                     <a href="IAP3.HTML"><p class="text-3xl  text-center" style="color: #C3DEA5; ">NEXT</p></a>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <script src="IAP2.js"></script>
+</body>
+</html>

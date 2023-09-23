@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.slides{
+    display: none;
+}
+.active, .dot:hover{
+    background-color: #fff;
+color: #5AB963;
+}
+
+.I{
+    margin-bottom: 15%;
+}
+
